@@ -28,6 +28,7 @@ async function pegarNoticias() {
         card.setAttribute('class', 'card');
 
         let imgCard = document.createElement('img')
+        imgCard.setAttribute('class', 'card-img-top')
         imgCard.setAttribute('src', dados.urlToImage);
 
         let bodyCard = document.createElement('div')
